@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="pastaClockApp">
+<head>
+    <title>Pasta Clock</title>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.0.2/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<header class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <section class="container">
+            <a class="brand" href="#/">Pasta Clock</a>
+            <ul class="nav">
+                <li><a href="#/">Home</a></li>
+                <li><a href="#/cook/spaghettis">Spaghettis</a></li>
+                <li><a href="#/cook/penne">Penne</a></li>
+                <li><a href="#/cook/maccheroni">Maccheroni</a></li>
+                <li><a href="#/cook/rigatoni">Rigatoni</a></li>
+                <li><a href="#/cook/fusilli">Fusilli</a></li>
+                <li><a href="#/cook/farfalle">Farfalle</a></li>
+            </ul>
+        </section>
+    </div>
+</header>
+
+<section class="container content" ng-view></section>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/controllers.js"></script>
+
+</body>
+</html>

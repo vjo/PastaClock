@@ -1,0 +1,8 @@
+<header class="page-header">
+    <button ng-click="countDown()" class="primary">Let's cook some {{pasta}}</button>
+</header>
+
+<section class="well form-inline">
+    <h1 ng-hide="showIcon">{{time*1000 | date: 'mm:ss'}}</h1>
+    <img ng-show="showIcon" src="http://iconsbyhour.co.uk/images/1pm/0113_soup.svg" title="Yumi!">
+</section>
